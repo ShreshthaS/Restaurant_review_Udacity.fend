@@ -30,4 +30,16 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
 
 
+###Installation and run locally
+First this repository.
+Clone this repository to your desktop.
+Open the root folder of the repository in a terminal
+Run npm i
+Check your python version by python -V
+Start local server:
+For Python 2.x: python -m SimpleHTTPServer 8000
+For Python 3.x: python3 -m http.server 8000
+Provide data from node server (see below)
+Visit http://localhost:8000
+
 
